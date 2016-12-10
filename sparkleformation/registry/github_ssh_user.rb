@@ -1,5 +1,6 @@
 ## Retrieves a user's public key from Github and adds it to the authorized_keys of the default user (ubuntu or ec2-user).
-## Defaults to using the parameter GithubUser (ref!(:github_user)). Optionally pass an argument to set the Github user's name or specify another parameter:
+## Defaults to using the parameter GithubUser (ref!(:github_user)). Optionally pass an argument to set the Github user's name or
+## specify another parameter:
 ## registry!(:github_ssh_user, username: 'github-user')
 ## registry!(:github_ssh_user, username: ref!(:another_parameter))
 

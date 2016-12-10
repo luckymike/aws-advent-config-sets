@@ -1,4 +1,5 @@
-## Installs a LAMP stack on Ubuntu. Optionally allows swapping webserver or database (NGINX/PostgreSQL) or omitting one or more packages. Technically, you could use this to install any package.
+## Installs a LAMP stack on Ubuntu. Optionally allows swapping webserver or database (NGINX/PostgreSQL) or omitting one or more packages.
+## Technically, you could use this to install any package.
 ## Args: A hash with package names as keys, and true/false/version as values, e.g.:
 ## registry!(:lamp, { apache2: true, php5: '5.6', postgresql: false })
 ## Without arguments, defaults to Apache, MySQL, PHP, with latest versions.
