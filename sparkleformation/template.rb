@@ -32,9 +32,9 @@ SparkleFormation.new(:template).load(:compute).overrides do
 
     ## Use to set a wordpress version.
 
-    wordpress_version do
-      type 'String'
-    end
+    # wordpress_version do
+    #   type 'String'
+    # end
   end
 
   resources(:advent_ec2_instance) do
