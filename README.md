@@ -1,5 +1,5 @@
 # aws-advent-config-sets
-default Configset examples to accompany my [AWS Advent 2016 article]().
+default Configset examples to accompany my [AWS Advent 2016 article](https://www.awsadvent.com/2016/12/13/modular-cfn-init-configsets-with-sparkleformation/).
 
 This repo is not intended to demonstrate general SparkleFormation patterns. I've taken shortcuts to focus on the registry entries. For a more complete SparkleFormation primer, checkout [the Workshop repo](https://github.com/reverseskate/sparkleformation-workshops) and, of course, [read the docs](http://www.sparkleformation.io/docs/).
 
